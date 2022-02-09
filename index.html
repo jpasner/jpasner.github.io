@@ -1,121 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-95CEBRMBZD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<html>
 
-    gtag('config', 'G-95CEBRMBZD');
-  </script>
+	<head>
+		<!-- Google Analytics Stuff-->
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=G-95CEBRMBZD"></script>
+	  <script>
+	    window.dataLayer = window.dataLayer || [];
+	    function gtag(){dataLayer.push(arguments);}
+	    gtag('js', new Date());
 
-  <title> Jake Pasner's Personal Webpage</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <style>
-  .greybox {
-    height: 200px;
-    background: #aaa;
-  }
-  </style>
+	    gtag('config', 'G-95CEBRMBZD');
+	  </script>
+		<!-- End Google Analytics Stuff-->
 
-  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-  <script type="text/javascript">
-    function showMailingPopUp() {
-      document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-      document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-      dojoRequire(
-        ["mojo/signup-forms/Loader"],
-        function(L) {
-          L.start( {
-            "baseUrl":"mc.us8.list-manage.com",
-            "uuid":"c0884fab34ab195df413d4a0a",
-            "lid":"f52474deab",
-            "uniqueMethods":true
-          });
-        });
-      }
-  </script>
-</head>
-<body>
+		<title>Jake Pasner</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Declare Navigation Bar -->
-  <nav class="navbar navbar-inverse navbar-expand-md fixed-top bg-dark navbar-dark">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#collapse-NavBar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Home</a>
-      </div>
-      <div class="collapse navbar-collapse" id="collapse-NavBar">
-        <ul class="nav navbar-nav">
-          <li class="nav-item">
-            <a class="btn btn-danger btn-lg mr-2" href="">Download CV</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-primary btn-lg mr-2" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="btn btn-warning btn-lg mr-2" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mt-1 mr-2" href="about.html">About</a>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Navigation Bar -->
+		<!-- Styling Stuff -->
+		<link href='./styles.css' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300,700' rel='stylesheet' type='text/css'> <!--WEB FONT-->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:200"> <!--WEB FONT-->
+			<!-- End Styling Stuff-->
 
-  <img style="padding-top:60px" src="img/field_cover_photo.jpeg" class="img-fluid" alt="Cover photo picturing the newly tilled rows of my family farm">
+	</head>
 
-  <!-- Begin Page Content-->
-  <div class="container" style="padding-top:10px">
-    <div class="row">
-      <div class="col-sm-3 text-center">
-        <h3>Jake's Corner</h3>
-        <img src="img/small_Profile_picture.jpg" class="img-fluid rounded-circle" alt="Picture of Jake Pasner standing in front of the ATLAS experiment">
-        <blockquote>
-          <p>
-            Thanks for coming to check out my page!
-          </p>
-          <footer>
-            -Jake Pasner
-          </footer>
-        </blockquote>
-        <hr style="height:1px;border:none;color:#333;background-color:#333;" />
-        <h4>Some Links</h4>
-        <hr style="height:1px;border:none;color:#333;background-color:#333;" />
-        <ul class="nav nav-pills flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-        </ul>
-        <hr class="d-sm-none">
-      </div>
+	<body>
 
-      <div class="col-sm-9">
-        <h2> Under Construction</h2>
-        <h5> Site under construction</h5>
-      </div>
-    </div>
-  </div>
-  <!-- End Page Content-->
+		<div id="wrapper"> <!-- creates space distinct from footer -->
+			<div id="header">
+	<div id="nav">
 
-<!-- <footer></footer> -->
-  <div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Jacob M. Pasner's Personal Page<br>
-       Thanks for comming by</p>
-  </div>
-</body>
+		<a href="./resume.php"><div class="fivenav">	R&eacute;sum&eacute;	</div></a>
+
+		<a href="https://posts.jakepasner.com/"><div class="fivenav">	Posts	</div></a>
+
+		<a href="./#service"><div class="fivenav">	Service	</div></a>
+
+		<a href="./#speaking"><div class="fivenav">	Speaking	</div></a>
+
+		<a href="https://www.linkedin.com/in/jakepasner"><div class="fivenav">	Contact	</div></a>
+
+		<div class="clearfloats"></div>
+	</div>
+</div>
+<div class="clearfloats"></div>
+			<div id="content">
+<img id="placeholder" src="./img/small_Profile_picture.jpg" alt="this is the image alt">
+<div id="home">
+	Jake Pasner
+</div>
+<h2 style="text-align: center;">HUMANIZING DATA</h2>
+
+<br>
+<br>
+<div id="about"></div>
+<p> Jake Pasner is a Ph.D. trained data scientist and internationally recognized expert on federal data policy.</p>
+
+<p>Jake recieved his Ph.D. and M.S. in physics from University of California Santa Cruz and his B.S. in physics from University of California Davis.
+<div id="service"></div><!--This anchor div is in a silly spot to accomodate the header--></p>
+<br>
+<h1>Service &amp; Pro-Bono</h1>
+<h2>Advisor</h2>
+	<ul>
+		<li>&nbsp;<a href="https://frontierdevelopmentlab.org/">NASA Frontier Development Lab</a> - 2016 to present</li>
+		<li>&nbsp;<a href="https://www.carondeleths.org/">Carondelet High School</a> - 2017 to 2018</li>
+	</ul>
+<h2>Leader</h2>
+	<ul>
+		<li>&nbsp;<a href="http://posts.bcavello.com/post/174519809445/2018-mini-grants-pride-edition">Mini Grants for Pride</a> -  2018</li>
+	</ul>
+<h2>Consultant</h2>
+	<ul>
+		<li>&nbsp;<a href="https://www.kickstarter.com/projects/artiphon/introducing-the-artiphon-instrument-1">Artiphon</a> -  2015</li>
+		<div id="speaking"></div><!--This anchor div is in a silly spot to deal with the header--><br>
+	</ul>
+<h1>Speaking</h1>
+<ul>
+
+	<li>&nbsp;Inagural SynBio Africa Conference<br><a href="https://www.youtube.com/watch?v=2-u5uR6E0Dc">"Securing the African Data Revolution for Researchers: Policy Based Perspective"</a></li>
+	<li>&nbsp;FermiLab Lightning Speech - 2018<br><a href="https://www.youtube.com/watch?v=QuI8xocurf0">"Better Metrics, Shared Prosperity"</a></li>
+</ul>
+
+						</div> <!-- closes content -->
+		</div> <!-- closes wrapper -->
+		<div id="footer">
+			&#169; b cavello 2021		</div>
+	</body>
+
 </html>
